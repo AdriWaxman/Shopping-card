@@ -16,7 +16,6 @@
 
 	<!-- Jquery -->
 	<script src="js/jquery-3.3.1.min.js"></script>
-
 </head>
 
 <body>
@@ -35,16 +34,17 @@
 			</div>
 		</div>
 	</header>
+
 	<section class="container-fluid main-content">
 		<article class="row">
 			<div class="col-8 main-products" id="products">
 				<!-- Lista de productos -->
 
 
-	<div class="item-wrap">
+				<div class="item-wrap">
             
             <!--Item: begins-->
-            <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+            <div class="item">
                 <h2>Rick to the Future</h2>
                 <img src="img/imgH1.jpg" alt="T-shirt">
                 <p>Camiseta molona de la serie Rick and Morty</p>
@@ -52,7 +52,7 @@
                 <button class="button" ng-show="product.canPurchase">Add to Cart</button>
             </div>
 
-           	<div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+           	<div class="item">
                 <h2>Rick to the Future</h2>
                 <img src="img/imgH2.jpg" alt="T-shirt">
                 <p>Camiseta molona de la serie Rick and Morty</p>
@@ -60,7 +60,7 @@
                 <button class="button" ng-show="product.canPurchase">Add to Cart</button>
             </div>
 
-            <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+            <div class="item">
                 <h2>Rick to the Future</h2>
                 <img src="img/imgH3.jpg" alt="T-shirt">
                 <p>Camiseta molona de la serie Rick and Morty</p>
@@ -68,7 +68,7 @@
                 <button class="button" ng-show="product.canPurchase">Add to Cart</button>
             </div>
 
-            <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+            <div class="item">
                 <h2>Rick to the Future</h2>
                 <img src="img/imgH4.jpg" alt="T-shirt">
                 <p>Camiseta molona de la serie Rick and Morty</p>
@@ -76,7 +76,7 @@
                 <button class="button" ng-show="product.canPurchase">Add to Cart</button>
             </div>
 
-           <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+           <div class="item">
                 <h2>Rick to the Future</h2>
                 <img src="img/imgH5.jpg" alt="T-shirt">
                 <p>Camiseta molona de la serie Rick and Morty</p>
@@ -84,7 +84,7 @@
                 <button class="button" ng-show="product.canPurchase">Add to Cart</button>
             </div>
 
-           <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+           <div class="item">
                 <h2>Rick to the Future</h2>
                 <img src="img/imgH6.jpg" alt="T-shirt">
                 <p>Camiseta molona de la serie Rick and Morty</p>
@@ -92,7 +92,7 @@
                 <button class="button" ng-show="product.canPurchase">Add to Cart</button>
             </div>
 
-            <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+            <div class="item">
                 <h2>Rick to the Future</h2>
                 <img src="img/imgH7.jpg" alt="T-shirt">
                 <p>Camiseta molona de la serie Rick and Morty</p>
@@ -269,6 +269,7 @@
 		</div>
 	</footer>
 
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>
