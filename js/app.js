@@ -48,17 +48,11 @@ $(document).ready(function(){
 
                     var listItem =
                     '<div class="item">' +
-                        '<div class="row">' +
-                            '<div class="col-md-3">' +
-                                '<img src="' + shoppingCardApi[i].picture + '" class="footballer-img">' +
-                            '</div>' +
-                            '<div class="col-md-8">' +
-                                '<div class="footballer-details">' +
-                                    '<p class="name"><strong>Name:</strong>' + shoppingCardApi[i].name + '</p>' +
-                                    '<p class="club"><strong>Club:</strong>' + shoppingCardApi[i].price + '</p>' +
-                                '</div>' +
-                            '</div>' +
-                        '</div>' +
+                        '<h2>' + shoppingCardApi[i].name + '</h2>' +
+                        '<img src="' + shoppingCardApi[i].picture + '">' +
+                        '<p>' + shoppingCardApi[i].description + '</p>' +
+                        '<h3>' + shoppingCardApi[i].price + '</p>' +
+                        '<button class="button">' + 'Add to Cart' + '</button>' +           
                     '</div>';
 
                     main.append(listItem);
