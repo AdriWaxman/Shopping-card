@@ -16,7 +16,7 @@ body{
 }
 
 .main-content{
-	height: 600px;
+	height: auto;
 	background-color: #FFFFFFFF;
 
 }
@@ -27,4 +27,248 @@ body{
 .main-footer{
 	height: 70px;
 	background-color: black;
+}
+
+
+
+
+body {font-family: 'Roboto', sans-serif; font-weight: 400; }
+.wrapper { width: 100%; }
+.centered-wrapper { max-width: 1260px; width: 100%; margin: 0 auto; }
+.item-wrap,
+.general-desc-wrap { width: 100%; text-align:center; margin : 25px 0; }
+.general-desc-wrap { padding : 0 85px; }
+.item-wrap .item { position: relative; border: 1px solid #ccc; width: 250px; min-height: 397px; border-radius: 5px; padding: 25px; display:inline-block; margin-right: 10px; margin-bottom : 10px; vertical-align: top; }
+.item-wrap .item h2 { margin: 0px 0 15px 0; padding: 0px; font-size: 22px; font-weight: 700;  }
+.item-wrap .item h3 { font-size: 24px; font-weight: 700; color: #C30; }
+.item-wrap .item p { font-weight: 300; margin-top: 20px; }
+.item-wrap .item img { height: 200px; cursor: pointer; background: #fff; left : 50%; top: 60px; }
+.item-wrap .item img.full { height: 397px; background: #f9f9f9; border-radius: 5px; cursor: pointer; z-index: 2; left: 0; margin-left : 0; top: 0; }
+.item-wrap .item img.thumb,
+.item-wrap .item img.full { -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s; -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s; -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s; transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s; position: absolute;  }
+.close-icon { position: absolute; right: 15px; top: 15px; display:none; width: 24px; height: 24px; background: url(https://cdn4.iconfinder.com/data/icons/e-commerce-icon-set/48/Remove-32.png) left top no-repeat; background-size: 100%; z-index: 4; cursor: pointer; }
+.button { background-color: #C63 ; color: #fff; border: 0px; padding: 7px 15px; font-weight : 400; font-size : 16px; outline: none; }
+.sold-out { cursor: default;  background-color:#eee; color: #aaa; }
+.nav.nav-pills { text-align:center; margin-top : 20px; }
+.nav.nav-pills li { float: none; display: inline-block; }
+.item .panel { position:absolute; left: 0; top: 0; width: 100%; height: 372px; border-radius : 5px 5px 0px 0px; padding: 25px; box-sizing: border-box; overflow: auto; z-index : 3; }
+.item .panel h2 { text-transform : uppercase; font-size : 22px; }
+.item .panel p { margin-top: 15px; }
+.item .panel .close-icon { right: 24px; top: 24px; }
+
+
+h1 {
+	font-size: 14px;
+}
+
+@font-face {
+    font-family: 'Shopper';
+    src: url('http://www.shopperfont.com/font/Shopper-Std.ttf');
+}
+
+.shopper {
+  text-transform: lowercase;
+  font: 2em 'Shopper', sans-serif;
+  line-height: 0.5em;
+  display: inline-block;
+}
+
+
+input {
+  border: 0.3em solid #bbc3c6;
+  padding: 0.5em 0.3em; 
+  font-size: 1.4em;
+  color: #8a8a8a;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 75em;
+  width: 95%;
+  margin: 40px auto;  
+  overflow: hidden;
+  position: relative;
+  
+  border-radius: 0.6em;
+  background: #ecf0f1;
+  box-shadow: 0 0.5em 0 rgba(138, 148, 152, 0.2);
+}
+
+.heading {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+  color: #f7f7f7;
+  background: #C63;
+}
+
+.cart {
+  margin: 1.5em;
+  overflow: hidden;
+}
+
+.cart.is-closed {
+  height: 0;
+  margin-top: -2.5em;
+}
+
+.table {
+  background: #ffffff;
+  border-radius: 0.6em;
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 1.8em;
+}
+
+
+.layout-inline > * {
+  display: inline-block;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.th {
+  background: #C63;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.tf {
+  background: #C63;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 1.2em;  
+}
+
+.tf p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.col {
+  padding: 1em;
+  width: 12%;
+}
+
+.col-pro {
+  width: 44%;
+}
+
+.col-pro > * {
+  vertical-align: middle;
+}
+
+.col-qty {
+  text-align: center;
+  width: 17%;
+}
+
+.col-numeric p {
+  font: bold 1.2em helvetica;
+}
+
+.col-total p {
+  color: #12c8b1;
+}
+
+.tf .col {
+  width: 20%;
+}
+
+.row > div {
+  vertical-align: middle;
+}
+
+.row-bg2 {
+  background: #f7f7f7;
+}
+
+.visibility-cart {
+  position: absolute;
+  color: #fff;
+  top: 0.5em;
+  right: 0.5em;
+  font:  bold 2em arial;
+  border: 0.16em solid #fff;
+  border-radius: 2.5em;
+  padding: 0 0.22em 0 0.25em ;
+}
+
+.col-qty > * {
+  vertical-align: middle; 
+}
+
+.col-qty > input {
+  max-width: 2.1em;
+}
+
+
+a.qty {
+  width: 1em;
+  line-height: 1em;
+  border-radius: 2em;
+  font-size: 2.1em;
+  font-weight: bold;
+  text-align: center;
+  background: #43ace3;  
+  color: #fff;
+}
+
+a.qty:hover {
+  background: #3b9ac6;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 0.3em;
+  font-size: 1.4em;
+  font-weight: bold;
+  background: #43ace3;
+  color: #fff;
+  box-shadow: 0 3px 0 rgba(59,154,198, 1)
+}
+
+.btn:hover {
+  box-shadow: 0 3px 0 rgba(59,154,198, 0)
+}
+
+.btn-update {
+  float: right;
+  margin: 0 0 1.5em 0;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and ( max-width: 755px) {
+  .container {
+    width: 98%;
+  }
+  
+  .col-pro {
+    width: 35%;
+  }
+  
+  .col-qty {
+    width: 22%;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and ( max-width: 591px) {
+  
 }

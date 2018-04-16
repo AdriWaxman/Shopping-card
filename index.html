@@ -18,7 +18,9 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
 
 </head>
+
 <body>
+
 	<header class="container-fluid header-top">
 		<div class="row">
 			<div class="col-4 logotype">
@@ -33,19 +35,211 @@
 			</div>
 		</div>
 	</header>
-	<section class="container main-content">
+	<section class="container-fluid main-content">
 		<article class="row">
 			<div class="col-8 main-products" id="products">
 				<!-- Lista de productos -->
+
+
+	<div class="item-wrap">
+            
+            <!--Item: begins-->
+            <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+                <h2>Rick to the Future</h2>
+                <img src="img/imgH1.jpg" alt="T-shirt">
+                <p>Camiseta molona de la serie Rick and Morty</p>
+                <h3>10€</h3>
+                <button class="button" ng-show="product.canPurchase">Add to Cart</button>
+            </div>
+
+           	<div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+                <h2>Rick to the Future</h2>
+                <img src="img/imgH2.jpg" alt="T-shirt">
+                <p>Camiseta molona de la serie Rick and Morty</p>
+                <h3>10€</h3>
+                <button class="button" ng-show="product.canPurchase">Add to Cart</button>
+            </div>
+
+            <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+                <h2>Rick to the Future</h2>
+                <img src="img/imgH3.jpg" alt="T-shirt">
+                <p>Camiseta molona de la serie Rick and Morty</p>
+                <h3>10€</h3>
+                <button class="button" ng-show="product.canPurchase">Add to Cart</button>
+            </div>
+
+            <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+                <h2>Rick to the Future</h2>
+                <img src="img/imgH4.jpg" alt="T-shirt">
+                <p>Camiseta molona de la serie Rick and Morty</p>
+                <h3>10€</h3>
+                <button class="button" ng-show="product.canPurchase">Add to Cart</button>
+            </div>
+
+           <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+                <h2>Rick to the Future</h2>
+                <img src="img/imgH5.jpg" alt="T-shirt">
+                <p>Camiseta molona de la serie Rick and Morty</p>
+                <h3>10€</h3>
+                <button class="button" ng-show="product.canPurchase">Add to Cart</button>
+            </div>
+
+           <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+                <h2>Rick to the Future</h2>
+                <img src="img/imgH6.jpg" alt="T-shirt">
+                <p>Camiseta molona de la serie Rick and Morty</p>
+                <h3>10€</h3>
+                <button class="button" ng-show="product.canPurchase">Add to Cart</button>
+            </div>
+
+            <div class="item" ng-repeat="product in store.products | orderBy: 'name'">
+                <h2>Rick to the Future</h2>
+                <img src="img/imgH7.jpg" alt="T-shirt">
+                <p>Camiseta molona de la serie Rick and Morty</p>
+                <h3>10€</h3>
+                <button class="button" ng-show="product.canPurchase">Add to Cart</button>
+            </div>
+            <!--Item: ends-->
+        
+        </div>
+        <!--Item Wrap: ends-->
+    
+    </div>
+
+
+
+
+
+
+
+
 				<div class="card col-4 card-product">
-				  <img class="card-img-top" src="img/img1.jpg" alt="Card image cap">
+				  
+					<div class="container">
+  
+  <div class="heading">
+    <h1>Shopping Cart</h1>
+  </div>
+  
+  <div class="cart transition is-open">    
+    
+    <div class="table">
+      
+      <div class="layout-inline row th">
+        <div class="col col-pro">Product</div>
+        <div class="col col-price align-center "> 
+          Price
+        </div>
+        <div class="col col-qty align-center">QTY</div>
+        <div class="col">VAT</div>
+        <div class="col">Total</div>
+      </div>
+      
+      <div class="layout-inline row">
+        
+        <div class="col col-pro layout-inline">
+          <p>Rick to the Future</p>
+        </div>
+        
+        <div class="col col-price col-numeric align-center ">
+          <p>10€</p>
+        </div>
+
+        <div class="col col-qty layout-inline">
+          <a href="#" class="qty qty-minus">-</a>
+            <input type="numeric" value="3" />
+          <a href="#" class="qty qty-plus">+</a>
+        </div>
+        
+        <div class="col col-vat col-numeric">
+          <p>2€</p>
+        </div>
+        <div class="col col-total col-numeric">   
+        	<p> 12€</p>
+        </div>
+      </div>
+
+      <div class="layout-inline row-bg2">
+        
+        <div class="col col-pro layout-inline">
+          <p>Rick to the Future</p>
+        </div>
+        
+        <div class="col col-price col-numeric align-center ">
+          <p>10€</p>
+        </div>
+
+        <div class="col col-qty layout-inline">
+          <a href="#" class="qty qty-minus">-</a>
+            <input type="numeric" value="3" />
+          <a href="#" class="qty qty-plus">+</a>
+        </div>
+        
+        <div class="col col-vat col-numeric">
+          <p>2€</p>
+        </div>
+        <div class="col col-total col-numeric">   
+        	<p> 12€</p>
+        </div>
+      </div>
+      
+      <div class="layout-inline row">
+        
+        <div class="col col-pro layout-inline">
+          <p>Rick to the Future</p>
+        </div>
+        
+        <div class="col col-price col-numeric align-center ">
+          <p>10€</p>
+        </div>
+
+        <div class="col col-qty layout-inline">
+          <a href="#" class="qty qty-minus">-</a>
+            <input type="numeric" value="3" />
+          <a href="#" class="qty qty-plus">+</a>
+        </div>
+        
+        <div class="col col-vat col-numeric">
+          <p>2€</p>
+        </div>
+        <div class="col col-total col-numeric">   
+        	<p> 12€</p>
+        </div>
+      </div>
+  
+       <div class="tf">
+         <div class="row layout-inline">
+           <div class="col">
+             <p>VAT</p>
+           </div>
+           <div class="col"></div>
+         </div>
+         <div class="row layout-inline">
+           <div class="col">
+             <p>Shipping</p>
+           </div>
+           <div class="col"></div>
+         </div>
+          <div class="row layout-inline">
+           <div class="col">
+             <p>Total</p>
+           </div>
+           <div class="col"></div>
+         </div>
+       </div>         
+  </div>
+    
+    <a href="#" class="btn btn-update">Update cart</a>
+  
+</div>
+  
+
+
+
+
+
 				  <div class="card-body">
-				    <h4 class="card-title">Camiseta 1</h4>
-				    <p class="card-text">
-				      Some quick example text to build on the card title
-				      and make up the bulk of the card's content.
-				    </p>
-				    <button type="button" class="btn btn-outline-primary" id="AddToCard"><span class></span>Add to Card</button>
+				   
 				  </div>
 			</div>
 				
