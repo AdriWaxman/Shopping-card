@@ -1,0 +1,65 @@
+"camisetas" : [
+{
+	"name" : "camiseta1",
+	"picture" : "img/imgH1.jpg",
+	"description" : "Rick to the Future",
+	"price" : 10,
+}
+
+{
+	"name" : "camiseta2",
+	"picture" : "img/imgH2.jpg",
+	"description" : "Never forget",
+	"price" : 13,
+}
+
+{
+	"name" : "camiseta3",
+	"picture" : "img/imgH3.jpg",
+	"description" : "Beer Gym",
+	"price" : 17,
+}
+
+{
+	"name" : "camiseta4",
+	"picture" : "img/imgH4.jpg",
+	"description" : "Tales from the Wasteland",
+	"price" : 7,
+}
+
+{
+	"name" : "camiseta5",
+	"picture" : "img/imgH5.jpg",
+	"description" : "Chaplin",
+	"price" : 18,
+}
+
+{
+	"name" : "camiseta6",
+	"picture" : "img/imgH6.jpg",
+	"description" : "Mordor Dark Ale",
+	"price" : 11,
+}
+
+{
+	"name" : "camiseta7",
+	"picture" : "img/imgH7.jpg",
+	"description" : "Peter Pan",
+	"price" : 14,
+}
+
+{
+	"name" : "camiseta8",
+	"picture" : "img/imgH8.jpg",
+	"description" : "The Real Six-Pack",
+	"price" : 16,
+}
+
+{
+	"name" : "camiseta9",
+	"picture" : "img/imgH9.jpg",
+	"description" : "Astronauta en un polo",
+	"price" : 13,
+}
+
+]
