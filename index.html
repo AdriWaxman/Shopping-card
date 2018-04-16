@@ -19,7 +19,7 @@
 
 </head>
 <body>
-	<header class="container-fluid">
+	<header class="container-fluid header-top">
 		<div class="row">
 			<div class="col-4 logotype">
 				<a href="#Home"><img src="img/logo-tienda.jpg" alt="Logo tienda"></a>
@@ -35,15 +35,27 @@
 	</header>
 	<section class="container main-content">
 		<article class="row">
-			<div class="col-8 main-products">
+			<div class="col-8 main-products" id="products">
 				<!-- Lista de productos -->
+				<div class="card col-4 card-product">
+				  <img class="card-img-top" src="img/img1.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h4 class="card-title">Camiseta 1</h4>
+				    <p class="card-text">
+				      Some quick example text to build on the card title
+				      and make up the bulk of the card's content.
+				    </p>
+				    <button type="button" class="btn btn-outline-primary" id="AddToCard"><span class></span>Add to Card</button>
+				  </div>
+			</div>
+				
 			</div>
 			<aside class="col-4 shopping-card">
 				<!-- Productos que se añaden a la cesta -->
 			</aside>
 		</article>
 	</section>
-	<footer class="container-fluid">
+	<footer class="container-fluid main-footer">
 		<div class="row">
 			<div class="col-12">
 				<p>All Rights Reserved Fran, Laura Adrián</p>
